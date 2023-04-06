@@ -95,19 +95,19 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://52.53.180.97:8081/repository/selad/</url>
+	      <url>http://52.53.180.97:8081/repository/tesla-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://52.53.180.97:8081/repository/selad-snap/</url>
+	      <url>http://52.53.180.97:8081/repository/tesla-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>selad</finalName>
+		<finalName>tesla</finalName>
 		
 		<plugins>
 			<plugin>
